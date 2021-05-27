@@ -7,3 +7,5 @@ app = QApplication(sys.argv)
 
 class Game(Scene):
 	pass
+
+print("Test")
