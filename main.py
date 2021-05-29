@@ -11,11 +11,12 @@ class Game(Scene):
 	def __init__(self):
 		super().__init__(600,600)
 		self.spaceship = Sprite(self, "spaceship100.png", 100, 93)
-		self.spaceship.y =200
+		self.spaceship.y=200
 		self.spaceship.dx=1
 		
 	def updateGame(self):
 		print("My Update")
+		
 		
 		self.spaceship.update()
 
@@ -33,6 +34,7 @@ sys.exit(app.exec_())
 #https://opengameart.org/content/esquire-animated-classic-hero-edit
 #Knight by Umz @http://umzgames.com/
 #villan: https://opengameart.org/content/monster-green
+#by 
 
 #Siqi's sprite sheet
 #https://opengameart.org/content/wizard-warrior----hero
@@ -40,8 +42,8 @@ sys.exit(app.exec_())
 
 
 #Qingyun's sprite sheet
-#https://opengameart.org/content/cute-monster-sprite-sheet
-
+#https://opengameart.org/content/cute-monster-sprite-sheet(hero)
+#
 #Anthony's sprite sheet
 # https://opengameart.org/content/dog-platformer-fighter
 # No attribution needed
@@ -54,3 +56,4 @@ sys.exit(app.exec_())
 
 
 #Alex's sprite sheet
+ddd
