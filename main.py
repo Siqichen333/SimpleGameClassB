@@ -11,7 +11,8 @@ class Game(Scene):
 	def __init__(self):
 		super().__init__(600,600)
 		self.spaceship = Sprite(self, "spaceship100.png", 100, 93)
-		self.spaceship.y = 
+		self.spaceship.y =200
+		self.spaceship.dx=1
 		
 	def updateGame(self):
 		print("My Update")
@@ -31,7 +32,7 @@ sys.exit(app.exec_())
 #Lucas' sprite sheet
 #https://opengameart.org/content/esquire-animated-classic-hero-edit
 #Knight by Umz @http://umzgames.com/
-
+#villan: https://opengameart.org/content/monster-green
 
 #Siqi's sprite sheet
 #https://opengameart.org/content/wizard-warrior----hero
