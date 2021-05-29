@@ -16,8 +16,9 @@ class Game(Scene):
 		
 	def updateGame(self):
 		print("My Update")
+		self.spaceship.x +=1
 		
-		
+		# 
 		self.spaceship.update()
 
 myGame = Game()
@@ -34,7 +35,7 @@ sys.exit(app.exec_())
 #https://opengameart.org/content/esquire-animated-classic-hero-edit
 #Knight by Umz @http://umzgames.com/
 #villan: https://opengameart.org/content/monster-green
-#by 
+#by PiXeRaT @ OpenGameArt.org
 
 #Siqi's sprite sheet
 #https://opengameart.org/content/wizard-warrior----hero
@@ -43,7 +44,9 @@ sys.exit(app.exec_())
 
 #Qingyun's sprite sheet
 #https://opengameart.org/content/cute-monster-sprite-sheet(hero)
-#
+#https://opengameart.org/content/skull-monster-sprite-sheet(villain)
+
+
 #Anthony's sprite sheet
 # https://opengameart.org/content/dog-platformer-fighter
 # No attribution needed
@@ -56,4 +59,4 @@ sys.exit(app.exec_())
 
 
 #Alex's sprite sheet
-ddd
+#https://op
