@@ -1,5 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel
+from PyQt5.QtCore import QTimer
 
 class Scene(QWidget):
 	def __init__(self, x=600, y=400, speed=33, title="My Game"):

@@ -33,12 +33,21 @@ sys.exit(app.exec_())
 
 
 #Siqi's sprite sheet
-#
+#https://opengameart.org/content/wizard-warrior----hero
+#https://opengameart.org/content/dark-alchemyst----villain
 
 
 #Qingyun's sprite sheet
 #https://opengameart.org/content/cute-monster-sprite-sheet
 
-## Alex's sprite sheet
-#cartoon-rogue by 
-#
+#Anthony's sprite sheet
+# https://opengameart.org/content/dog-platformer-fighter
+# No attribution needed
+
+#Johnny's sprite sheet
+#https://opengameart.org/content/cartoon-rogue
+#cartoon-rogue by laetissima @http://opengameart.org
+
+#Justin's sprite sheet
+#https://opengameart.org/content/pixel-art-mini-golem
+#By PixElthen
